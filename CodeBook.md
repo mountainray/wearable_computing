@@ -125,7 +125,7 @@ The wearable_computing dataset was next grouped by subject and activity, then su
 5. Read in and create features (variable names in original format)
 6. Modify names in features relating to "energyBands" to make distinct (though these are not selected later, their non-uniqueness causes problems)
 7. Remove most non-alpha characters in features, and fix "BodyBody" typo (make "Body")
-8. Read in and left join activities to activity labels, train data group
+8. Read in and left join activities to activity labels
 9. Read in subject ID's for train data group
 10. Apply variable names, prefix with "mean_"
 11. Read main train data, column bind subject ID's, activity labels, and subset of columns having "mean" or "std" in feature name
@@ -134,7 +134,7 @@ The wearable_computing dataset was next grouped by subject and activity, then su
 14. Drop "meanFreq" and "angle" fields, not in scope
 15. Group by subject_id and activity
 16. Summarize by subject_id and activity, generate mean, this makes wearable_computing_tidy
-17. Write wearable_computing_tidy to .csv file
+17. Write wearable_computing_tidy to .csv file, used row.names = FALSE option
 
 
 ###Tidy data:  some choices made
