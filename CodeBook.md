@@ -149,71 +149,71 @@ Final output is to a csv-delimited text file names "wearable_computing_tidy.csv"
 
 Variable Name              | Units                 | Description
 ---------------------------|-----------------------|------------------------------------------------------------------------
-subject_id                 |individual person      |Integer distinguishing 30 study participants
-activity                   |labels                 |Label describing activity (e.g., WALKING, SITTING) 
-mean_tBodyAccMean_X        |standard gravity       |Mean Body acceleration Mean, X axis
-mean_tBodyAccMean_Y        |standard gravity       |Mean Body acceleration Mean, Y axis
-mean_tBodyAccMean_Z        |standard gravity       |Mean Body acceleration Mean, Z axis
-mean_tBodyAccStd_X         |standard gravity       |Mean Body acceleration Standard Deviation, X axis
-mean_tBodyAccStd_Y         |standard gravity       |Mean Body acceleration Standard Deviation, Y axis
-mean_tBodyAccStd_Z         |standard gravity       |Mean Body acceleration Standard Deviation, Z axis
-mean_tGravityAccMean_X     |standard gravity       |Mean Gravity acceleration Mean, X axis
-mean_tGravityAccMean_Y     |standard gravity       |Mean Gravity acceleration Mean, Y axis
-mean_tGravityAccMean_Z     |standard gravity       |Mean Gravity acceleration Mean, Z axis
-mean_tGravityAccStd_X      |standard gravity       |Mean Gravity acceleration Standard Deviation, X axis
-mean_tGravityAccStd_Y      |standard gravity       |Mean Gravity acceleration Standard Deviation, Y axis
-mean_tGravityAccStd_Z      |standard gravity       |Mean Gravity acceleration Standard Deviation, Z axis
-mean_tBodyAccJerkMean_X    |standard gravity/second|Mean Body Jerk Mean, X axis
-mean_tBodyAccJerkMean_Y    |standard gravity/second|Mean Body Jerk Mean, Y axis
-mean_tBodyAccJerkMean_Z    |standard gravity/second|Mean Body Jerk Mean, Z axis
-mean_tBodyAccJerkStd_X     |standard gravity/second|Mean Body Jerk Standard Deviation, X axis
-mean_tBodyAccJerkStd_Y     |standard gravity/second|Mean Body Jerk Standard Deviation, Y axis
-mean_tBodyAccJerkStd_Z     |standard gravity/second|Mean Body Jerk Standard Deviation, Z axis
-mean_tBodyGyroMean_X       |radians/second         |Mean Body Gyroscope angular velocity Mean, X axis
-mean_tBodyGyroMean_Y       |radians/second         |Mean Body Gyroscope angular velocity Mean, Y axis
-mean_tBodyGyroMean_Z       |radians/second         |Mean Body Gyroscope angular velocity Mean, Z axis
-mean_tBodyGyroStd_X        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, X axis
-mean_tBodyGyroStd_Y        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, Y axis
-mean_tBodyGyroStd_Z        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, Z axis
-mean_tBodyGyroJerkMean_X   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, X axis
-mean_tBodyGyroJerkMean_Y   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Y axis
-mean_tBodyGyroJerkMean_Z   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Z axis
-mean_tBodyGyroJerkStd_X    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, X axis
-mean_tBodyGyroJerkStd_Y    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Y axis
-mean_tBodyGyroJerkStd_Z    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Z axis
-mean_tBodyAccMagMean       |standard gravity       |Mean Body acceleration, Euclidean norm Magnitude Mean
-mean_tBodyAccMagStd        |standard gravity       |Mean Body acceleration, Euclidean norm Magnitude Standard Deviation
-mean_tGravityAccMagMean    |standard gravity       |Mean Gravity acceleration, Euclidean norm Magnitude Mean
-mean_tGravityAccMagStd     |standard gravity       |Mean Gravity acceleration, Euclidean norm Magnitude Standard Deviation
-mean_tBodyAccJerkMagMean   |standard gravity/second|Mean Body Jerk acceleration, Euclidean norm Magnitude Mean
-mean_tBodyAccJerkMagStd    |standard gravity/second|Mean Body Jerk acceleration, Euclidean norm Magnitude Mean
-mean_tBodyGyroMagMean      |radians/second         |Mean Gyroscope angular velocity, Euclidean norm Magnitude Mean
-mean_tBodyGyroMagStd       |radians/second         |Mean Gyroscope angular velocity, Euclidean norm Magnitude Std Deviation
-mean_tBodyGyroJerkMagMean  |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity, Euclidean norm Magnitude Mean
-mean_tBodyGyroJerkMagStd   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity, Euclidean norm Magnitude Mean
-mean_fBodyAccMean_X        |Hz                     |Mean Body acceleration frequency Mean, X axis
-mean_fBodyAccMean_Y        |Hz                     |Mean Body acceleration frequency Mean, Y axis
-mean_fBodyAccMean_Z        |Hz                     |Mean Body acceleration frequency Mean, Z axis
-mean_fBodyAccStd_X         |Hz                     |Mean Body acceleration frequency Standard Deviation, X axis
-mean_fBodyAccStd_Y         |Hz                     |Mean Body acceleration frequency Standard Deviation, Y axis
-mean_fBodyAccStd_Z         |Hz                     |Mean Body acceleration frequency Standard Deviation, Z axis
-mean_fBodyAccJerkMean_X    |Hz                     |Mean Body Jerk frequency Mean, X axis
-mean_fBodyAccJerkMean_Y    |Hz                     |Mean Body Jerk frequency Mean, Y axis
-mean_fBodyAccJerkMean_Z    |Hz                     |Mean Body Jerk frequency Mean, Z axis
-mean_fBodyAccJerkStd_X     |Hz                     |Mean Body Jerk frequency Standard Deviation, X axis
-mean_fBodyAccJerkStd_Y     |Hz                     |Mean Body Jerk frequency Standard Deviation, Y axis
-mean_fBodyAccJerkStd_Z     |Hz                     |Mean Body Jerk frequency Standard Deviation, Z axis
-mean_fBodyGyroMean_X       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, X axis
-mean_fBodyGyroMean_Y       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Y axis
-mean_fBodyGyroMean_Z       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Z axis
-mean_fBodyGyroStd_X        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, X axis
-mean_fBodyGyroStd_Y        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Y axis
-mean_fBodyGyroStd_Z        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Z axis
-mean_fBodyAccMagMean       |Hz                     |Mean Body acceleration frequency, Euclidean norm Magnitude Mean
-mean_fBodyAccMagStd        |Hz                     |Mean Body acceleration frequency, Euclidean norm Magnitude Mean
-mean_fBodyAccJerkMagMean   |Hz                     |Mean Body Jerk frequency, Euclidean norm Magnitude Mean
-mean_fBodyAccJerkMagStd    |Hz                     |Mean Body Jerk frequency, Euclidean norm Magnitude Mean
-mean_fBodyGyroMagMean      |Hz                     |Mean Body Gyroscope angular velocity frequency, Euclidean norm Magnitude Mean
-mean_fBodyGyroMagStd       |Hz                     |Mean Body Gyroscope angular velocity frequency, Euclidean norm Magnitude Mean
-mean_fBodyGyroJerkMagMean  |Hz                     |Mean Body Gyroscope Jerk angular velocity frequency, Euclidean norm Magnitude Mean
-mean_fBodyGyroJerkMagStd   |Hz                     |Mean Body Gyroscope Jerk angular velocity frequency, Euclidean norm Magnitude Mean
+1. subject_id                 |individual person      |Integer distinguishing 30 study participants
+2. activity                   |labels                 |Label describing activity (e.g., WALKING, SITTING) 
+3. mean_tBodyAccMean_X        |standard gravity       |Mean Body acceleration Mean, X axis
+4. mean_tBodyAccMean_Y        |standard gravity       |Mean Body acceleration Mean, Y axis
+5. mean_tBodyAccMean_Z        |standard gravity       |Mean Body acceleration Mean, Z axis
+6. mean_tBodyAccStd_X         |standard gravity       |Mean Body acceleration Standard Deviation, X axis
+7. mean_tBodyAccStd_Y         |standard gravity       |Mean Body acceleration Standard Deviation, Y axis
+8. mean_tBodyAccStd_Z         |standard gravity       |Mean Body acceleration Standard Deviation, Z axis
+9. mean_tGravityAccMean_X     |standard gravity       |Mean Gravity acceleration Mean, X axis
+10. mean_tGravityAccMean_Y     |standard gravity       |Mean Gravity acceleration Mean, Y axis
+11. mean_tGravityAccMean_Z     |standard gravity       |Mean Gravity acceleration Mean, Z axis
+12. mean_tGravityAccStd_X      |standard gravity       |Mean Gravity acceleration Standard Deviation, X axis
+13. mean_tGravityAccStd_Y      |standard gravity       |Mean Gravity acceleration Standard Deviation, Y axis
+14. mean_tGravityAccStd_Z      |standard gravity       |Mean Gravity acceleration Standard Deviation, Z axis
+15. mean_tBodyAccJerkMean_X    |standard gravity/second|Mean Body Jerk Mean, X axis
+16. mean_tBodyAccJerkMean_Y    |standard gravity/second|Mean Body Jerk Mean, Y axis
+17. mean_tBodyAccJerkMean_Z    |standard gravity/second|Mean Body Jerk Mean, Z axis
+18. mean_tBodyAccJerkStd_X     |standard gravity/second|Mean Body Jerk Standard Deviation, X axis
+19. mean_tBodyAccJerkStd_Y     |standard gravity/second|Mean Body Jerk Standard Deviation, Y axis
+20. mean_tBodyAccJerkStd_Z     |standard gravity/second|Mean Body Jerk Standard Deviation, Z axis
+21. mean_tBodyGyroMean_X       |radians/second         |Mean Body Gyroscope angular velocity Mean, X axis
+22. mean_tBodyGyroMean_Y       |radians/second         |Mean Body Gyroscope angular velocity Mean, Y axis
+23. mean_tBodyGyroMean_Z       |radians/second         |Mean Body Gyroscope angular velocity Mean, Z axis
+24. mean_tBodyGyroStd_X        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, X axis
+25. mean_tBodyGyroStd_Y        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, Y axis
+26. mean_tBodyGyroStd_Z        |radians/second         |Mean Body Gyroscope angular velocity Standard Deviation, Z axis
+27. mean_tBodyGyroJerkMean_X   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, X axis
+28. mean_tBodyGyroJerkMean_Y   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Y axis
+29. mean_tBodyGyroJerkMean_Z   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Z axis
+30. mean_tBodyGyroJerkStd_X    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, X axis
+31. mean_tBodyGyroJerkStd_Y    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Y axis
+32. mean_tBodyGyroJerkStd_Z    |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity Mean, Z axis
+33. mean_tBodyAccMagMean       |standard gravity       |Mean Body acceleration, Euclidean norm Magnitude Mean
+34. mean_tBodyAccMagStd        |standard gravity       |Mean Body acceleration, Euclidean norm Magnitude Standard Deviation
+35. mean_tGravityAccMagMean    |standard gravity       |Mean Gravity acceleration, Euclidean norm Magnitude Mean
+36. mean_tGravityAccMagStd     |standard gravity       |Mean Gravity acceleration, Euclidean norm Magnitude Standard Deviation
+37. mean_tBodyAccJerkMagMean   |standard gravity/second|Mean Body Jerk acceleration, Euclidean norm Magnitude Mean
+38. mean_tBodyAccJerkMagStd    |standard gravity/second|Mean Body Jerk acceleration, Euclidean norm Magnitude Mean
+39. mean_tBodyGyroMagMean      |radians/second         |Mean Gyroscope angular velocity, Euclidean norm Magnitude Mean
+40. mean_tBodyGyroMagStd       |radians/second         |Mean Gyroscope angular velocity, Euclidean norm Magnitude Std Deviation
+41. mean_tBodyGyroJerkMagMean  |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity, Euclidean norm Magnitude Mean
+42. mean_tBodyGyroJerkMagStd   |radians/second^2^      |Mean Body Jerk Gyroscope angular velocity, Euclidean norm Magnitude Mean
+43. mean_fBodyAccMean_X        |Hz                     |Mean Body acceleration frequency Mean, X axis
+44. mean_fBodyAccMean_Y        |Hz                     |Mean Body acceleration frequency Mean, Y axis
+45. mean_fBodyAccMean_Z        |Hz                     |Mean Body acceleration frequency Mean, Z axis
+46. mean_fBodyAccStd_X         |Hz                     |Mean Body acceleration frequency Standard Deviation, X axis
+47. mean_fBodyAccStd_Y         |Hz                     |Mean Body acceleration frequency Standard Deviation, Y axis
+48. mean_fBodyAccStd_Z         |Hz                     |Mean Body acceleration frequency Standard Deviation, Z axis
+49. mean_fBodyAccJerkMean_X    |Hz                     |Mean Body Jerk frequency Mean, X axis
+50. mean_fBodyAccJerkMean_Y    |Hz                     |Mean Body Jerk frequency Mean, Y axis
+51. mean_fBodyAccJerkMean_Z    |Hz                     |Mean Body Jerk frequency Mean, Z axis
+52. mean_fBodyAccJerkStd_X     |Hz                     |Mean Body Jerk frequency Standard Deviation, X axis
+53. mean_fBodyAccJerkStd_Y     |Hz                     |Mean Body Jerk frequency Standard Deviation, Y axis
+54. mean_fBodyAccJerkStd_Z     |Hz                     |Mean Body Jerk frequency Standard Deviation, Z axis
+55. mean_fBodyGyroMean_X       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, X axis
+56. mean_fBodyGyroMean_Y       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Y axis
+57. mean_fBodyGyroMean_Z       |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Z axis
+58. mean_fBodyGyroStd_X        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, X axis
+59. mean_fBodyGyroStd_Y        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Y axis
+60. mean_fBodyGyroStd_Z        |Hz                     |Mean Body Gyroscope angular velocity frequency Mean, Z axis
+61. mean_fBodyAccMagMean       |Hz                     |Mean Body acceleration frequency, Euclidean norm Magnitude Mean
+62. mean_fBodyAccMagStd        |Hz                     |Mean Body acceleration frequency, Euclidean norm Magnitude Mean
+63. mean_fBodyAccJerkMagMean   |Hz                     |Mean Body Jerk frequency, Euclidean norm Magnitude Mean
+64. mean_fBodyAccJerkMagStd    |Hz                     |Mean Body Jerk frequency, Euclidean norm Magnitude Mean
+65. mean_fBodyGyroMagMean      |Hz                     |Mean Body Gyroscope angular velocity frequency, Euclidean norm Magnitude Mean
+66. mean_fBodyGyroMagStd       |Hz                     |Mean Body Gyroscope angular velocity frequency, Euclidean norm Magnitude Mean
+67. mean_fBodyGyroJerkMagMean  |Hz                     |Mean Body Gyroscope Jerk angular velocity frequency, Euclidean norm Magnitude Mean
+68. mean_fBodyGyroJerkMagStd   |Hz                     |Mean Body Gyroscope Jerk angular velocity frequency, Euclidean norm Magnitude Mean
