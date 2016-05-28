@@ -9,6 +9,8 @@ library(dplyr)
 library(stringi)
 library(data.table)
 
+setwd("/Users/rb/Desktop/Data Science course/Getting_and_Cleaning_data/wearable_computing/data")
+
 # check for expected folder, create if it does not exist
 if(!file.exists("./data")) {dir.create("./data")}
 
@@ -91,4 +93,4 @@ wearable_computing_tidy <- wearable_computing %>%
 str(wearable_computing_tidy)
 
 #write out the final tidy dataset
-write.table(wearable_computing_tidy, file = "wearable_computing_tidy.csv", sep = ",", row.names = FALSE)
+write.table(wearable_computing_tidy, file = "wearable_computing_tidy.txt", sep = ",", row.names = FALSE)

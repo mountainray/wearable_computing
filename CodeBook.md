@@ -134,7 +134,7 @@ The wearable_computing dataset was next grouped by subject and activity, then su
 14. Drop "meanFreq" and "angle" fields, not in scope
 15. Group by subject_id and activity
 16. Summarize by subject_id and activity, generate mean, this makes wearable_computing_tidy
-17. Write wearable_computing_tidy to .csv file, used row.names = FALSE option
+17. Write wearable_computing_tidy to comma delimited wearable_computing_tidy.txt file, used row.names = FALSE option
 
 
 ###Tidy data:  some choices made
